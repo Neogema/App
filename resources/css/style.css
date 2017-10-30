@@ -1,0 +1,130 @@
+/*  GENERAL STYLING */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.wow {
+    -webkit-animation-delay: 0.4s;
+}
+
+/*  MULTIPLE SECTION STYLING    */
+
+.jumbotron .btn, .download .btn {
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+}
+
+.about-desc, .download p, .contact p {
+    padding: 0 20%;
+}
+
+.about, .contact {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.about h1, .contact h1 {
+    margin-bottom: 2rem;
+}
+.overlay, .footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/*  NAVIGATION BAR  */
+
+.header-bg {
+    background-image: url(../images/background.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.nav-link {
+    color: #ffffff!important;
+    padding: 1.5rem!important;
+}
+.navbar-brand {
+    color: #ffffff!important;
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+
+/*  JUMBOTRON SECTION   */
+
+.jumbotron {
+    background-color: transparent;
+    color: #ffffff;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*  ABOUT SECTION   */
+
+.about-features {
+    margin-top: 3.5rem; 
+}
+.about-features-icon-left {
+    float: right;
+    margin-top: 1.5rem;
+    min-height: 6rem;
+}
+.about-details-left {
+    text-align: left;  
+}
+.fa-4 {
+    font-size: 3rem!important;
+}
+.about-img{
+    margin-top: 1.5rem;
+}
+.about-features-icon-right {
+    float: left;
+    margin-top: 1.5rem;
+    min-height: 6rem;   
+}
+.about-details-right {
+    text-align: right;     
+}
+
+/*  DOWNLOAD SECTION    */
+
+.download {
+    color: #ffffff;
+}
+.parallax-bg {
+    background-image: url(../images/parallax%20background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.overlay {
+    background-color: rgba(51, 51, 51, 0.71);
+}
+
+/*  CONTACT SECTION */
+
+.form-inline {
+    margin-top: 2rem;
+}
+.form-control {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #333333;
+}
+.contact .btn {
+    margin-top: 1rem;
+}
+
+/*  FOOTER  */
+
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+}
