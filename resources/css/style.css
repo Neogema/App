@@ -54,6 +54,9 @@ body {
     color: #ffffff!important;
     padding: 1.5rem!important;
 }
+.nav-link:hover {
+    text-shadow: 0.5px 0.5px #f0f0f0;
+}
 .navbar-brand {
     color: #ffffff!important;
     font-size: 2rem;
