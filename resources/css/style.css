@@ -3,6 +3,7 @@
 html {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -95,11 +96,17 @@ body {
 .about-details-right {
     text-align: right;     
 }
+.about .col-md-4 {
+    padding: 0;
+}
 
 /*  DOWNLOAD SECTION    */
 
 .download {
     color: #ffffff;
+}
+.download-header {
+    font-size: 4.5rem;
 }
 .parallax-bg {
     background-image: url(../images/parallax%20background.jpg);
@@ -130,4 +137,28 @@ body {
 .footer {
     background-color: #333333;
     color: #ffffff;
+}
+
+/*  MEDIA QUERIES   */
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .about-img {
+        width: 14rem;
+        margin-top: 6rem;
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 768px) {
+    .jumbotron img {
+        width: 15rem;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .download-header {
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (max-width: 410px) {
+    .download-header {
+        font-size: 2.85rem;
+    }
 }
