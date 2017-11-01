@@ -46,6 +46,9 @@ body {
 .bg-light {
     background-color: transparent!important;
 }
+.navbar-toggler {
+    border: 1px solid #ffffff!important;
+}
 .nav-link {
     color: #ffffff!important;
     padding: 1.5rem!important;
